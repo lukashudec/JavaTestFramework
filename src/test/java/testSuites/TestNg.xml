@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="2" verbose="1" name="Test Suite 1" annotations="JDK" parallel="tests">
+
+    <test name="BoardGameGeeks Web Test Suite">
+        <classes>
+            <class name="main.TestRunners.BoardGameGeekWebTest"/>
+        </classes>
+    </test>
+    <test name="TypiCode Api Test Suite">
+        <classes>
+            <class name="main.TestRunners.TypicodeCommentsTest"/>
+        </classes>
+    </test>
+</suite>
