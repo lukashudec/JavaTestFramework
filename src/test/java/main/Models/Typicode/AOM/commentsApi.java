@@ -23,6 +23,7 @@ public class commentsApi extends AbstractApi {
         } catch (JsonPathException e) {
             log(Status.INFO, "Response not parsed properly");
         }
+
     }
 
     public static commentsApi get() {
